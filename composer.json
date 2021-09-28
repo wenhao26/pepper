@@ -1,0 +1,22 @@
+{
+    "name": "wenhao26/pepper",
+    "description": "Make development more convenient.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pepper",
+            "email": "pepper1639@foxmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": "^7.0",
+        "ext-bcmath": "*"
+    },
+	"autoload": {
+        "psr-4": {
+            "pepper\\": "src\\"
+        }
+    }
+}
